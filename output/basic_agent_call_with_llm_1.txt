@@ -1,0 +1,8 @@
+basic_agent_call_with_llm_1.py
+I am called from check function
+---------- TextMessage (user) ----------
+What is 25 * 8
+---------- TextMessage (assistant) ----------
+25 * 8 = 200
+
+Process finished with exit code 0
