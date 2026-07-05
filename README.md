@@ -61,6 +61,7 @@ pip install -r requirements.txt
 
 ``` env
 OPENAI_API_KEY=your_api_key_here
+directory_location=your_directory_location_where_you_want_file
 ```
 
 ### 5. Verify installation
@@ -78,6 +79,17 @@ project/
 ├── requirements.txt
 └── src/
 ```
+
+## To support on mcp tool e.g. filesystem (refer agent_with_file_system_tooling_support_7.py file)
+
+``` manually 
+npm install -g @modelcontextprotocol/server-filesystem
+which mcp-server-filesystem
+
+Now put this path in StdioServerParams(command=<here>,
+args=[str(os.getenv("directory_location"))])
+```
+
 
 ## Author
 
